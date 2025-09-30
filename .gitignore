@@ -29,3 +29,6 @@ results/
 .vscode/
 .idea/
 *.swp
+
+*.DS_store
+anaconda_projects/
