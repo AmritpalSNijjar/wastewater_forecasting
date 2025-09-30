@@ -1,0 +1,31 @@
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+*.ipynb-checkpoint
+.jupyter/
+
+# Python specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.env/
+venv/
+env/
+
+# Data files and temporary files
+*.csv
+*.json
+*.pkl
+*.data
+*.log
+*.tmp
+temp/
+data/
+results/
+
+# Editor/IDE specific files (optional)
+.vscode/
+.idea/
+*.swp
