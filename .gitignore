@@ -2,6 +2,7 @@
 .ipynb_checkpoints/
 *.ipynb-checkpoint
 .jupyter/
+notebooks/.ipynb_checkpoints/
 
 # Python specific files
 __pycache__/
