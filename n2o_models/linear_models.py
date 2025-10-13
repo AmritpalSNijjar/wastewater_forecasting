@@ -1,4 +1,4 @@
-from base import N2OModel
+from .base import N2OModel
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
