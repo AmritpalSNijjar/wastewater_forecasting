@@ -18,6 +18,8 @@ def model_eval(model):
     for i in range(1, 8): # 8 data splits
         train_df, val_df = cv_splits_loader(split = i)
 
+        model.fit(train_df)
+        
         train_pred = model.predict(train_df)
         train_error = RMSE(train_df[['N2O', 'N2O_lead1', 'N2O_lead2']], train_pred[['N2O', 'N2O_lead1', 'N2O_lead2']])/len(train_df)
         train_errors.append(train_error)
